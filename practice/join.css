@@ -1,0 +1,122 @@
+body {
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 670px;
+  height: 960px;
+  left: 625px;
+  top: 60px;
+  background: #ffffff;
+  border: 1px solid #aacdff;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+  padding: 72px 104px 0px 100px;
+}
+
+.title {
+  width: 466px;
+  height: 94px;
+  left: 725px;
+  top: 132px;
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 47px;
+  color: #0068ff;
+  margin-bottom: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+}
+
+.info__box {
+  margin: 45px 0px 25px 0px;
+  border: 1px solid #0068ff;
+}
+
+.info__box2 {
+  margin: 45px 0px 25px 0px;
+  border: 1px solid #cfcfcf;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.gender__w {
+  margin-right: 25px;
+}
+
+.check {
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #000000;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.check__box {
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.button__join {
+  width: 464px;
+  padding: 25px 0px 25px 0px;
+  background: #ffffff;
+  color: #0068ff;
+  border: 1px solid #0068ff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}

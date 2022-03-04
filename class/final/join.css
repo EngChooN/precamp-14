@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 540px;
+  height: 960px;
+  left: 690px;
+  top: 118px;
+  background: #ffffff;
+  border: 1px solid #aacdff;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+  padding: 72px 104px 0px 85px;
+}
+
+.main__title {
+  width: 380px;
+  height: 47px;
+  left: 768px;
+  top: 178px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 47px;
+
+  color: #0068ff;
+  margin-bottom: 60px;
+}
+
+.main__info {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__input {
+  width: 380px;
+  height: 60px;
+  left: 768px;
+  top: 285px;
+
+  background: #ffffff;
+  border: 1px solid #0068ff;
+  box-sizing: border-box;
+  border-radius: 7px;
+
+  margin-bottom: 20px;
+}
+
+.main__auth {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__phone {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.pNumber {
+  width: 100px;
+  height: 40px;
+  left: 768px;
+  top: 605px;
+
+  background: #ffffff;
+  border: 1px solid #d2d2d2;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.auth__random {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.random__number,
+.random__timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  left: 1028px;
+  top: 665px;
+
+  background: #ffffff;
+  border: 1px solid #d2d2d2;
+  box-sizing: border-box;
+  border-radius: 7px;
+
+  margin-left: 24px;
+}
+
+.main__location {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.location__box {
+  width: 380px;
+  height: 60px;
+  left: 768px;
+  top: 785px;
+
+  background: #ffffff;
+  border: 1px solid #d2d2d2;
+  box-sizing: border-box;
+  border-radius: 7px;
+
+  margin-bottom: 30px;
+}
+
+.main__gender {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gender__checkbox2 {
+  margin-left: 30px;
+}
+
+.main__gender :nth-child(1),
+.main__gender :nth-child(2) {
+  margin-right: 5px;
+}
+
+.diviedLine {
+  width: 380px;
+  height: 1px;
+  left: 770px;
+  top: 928.94px;
+
+  background: #e6e6e6;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main__final {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.final__button {
+  width: 380px;
+  height: 75px;
+  left: 770px;
+  top: 949.94px;
+
+  background: #ffffff;
+  border: 1px solid #0068ff;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.auth__span {
+  width: 60px;
+  height: 27px;
+  left: 947px;
+  top: 671px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: right;
+
+  color: #0068ff;
+}
+
+.auth__span2 {
+  width: 120px;
+  height: 24px;
+  left: 1028px;
+  top: 673px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #0068ff;
+}
+.auth__span3 {
+  width: 120px;
+  height: 29.54px;
+  left: 1028px;
+  top: 733.62px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.button2 {
+  width: 120px;
+  height: 40px;
+  left: 1028px;
+  top: 725px;
+
+  background: #0068ff;
+  border-radius: 7px;
+
+  margin-left: 24px;
+}
